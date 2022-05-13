@@ -14,6 +14,7 @@ I use Hexagornal concept for this challence, the Hexagornal concept is easy way 
 
 
 ### CONFIG
+```
 app:
   encrypt:
     caesar:
@@ -24,3 +25,4 @@ app:
       secret: xxxxxxxxx
   currency: thb
   pool_size: 5
+  ```
