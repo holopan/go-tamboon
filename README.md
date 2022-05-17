@@ -26,3 +26,9 @@ app:
   currency: thb
   pool_size: 5
   ```
+
+### HOW TO RUN?
+* Checkout this project to your local
+* Create `.env.development.yml` at the root path or in config path
+* `go mod tidy`
+* `go run ./cmd/main.go ./data/fng.1000.csv.rot128`
